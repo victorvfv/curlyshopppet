@@ -1,6 +1,3 @@
-
-/**
- * Write a description of class Gato here.
 public class Gato {
     // instance variables - replace the example below with your own
     private int edad;
@@ -9,9 +6,9 @@ public class Gato {
     /**
      * Constructor for objects of class Gato
      */
-    public Gato(String ) {
-      color = colour;
-edad = años;
+    public Gato() {
+      color = " ";
+edad = 0;
     }
     //metodo que devuelve el color.
     public String getcolor() {
@@ -22,8 +19,8 @@ edad = años;
         return edad;
     }
     //metodo setColor
-    public void setcolor(String newColor) {
-        color= newoColor;
+    public void setcolor(String otroColor) {
+        color= otroColor;
     }
     //metodo setedad.
     public void setEdad(int tiempo) {
