@@ -22,17 +22,6 @@ public class Tienda
         gato = new ArrayList<Gato>();
     }
     
-    public void abrirOCerrar(){
-        if(abierto==false){
-            abierto=true;
-        }
-        else{
-            abierto=false;
-        }
-    }
     
-    public void conseguirGato(String color, int edad){
-        Gato nuevo=new Gato(color,edad);
-        gato.add(nuevo);
-    }
+    
 }

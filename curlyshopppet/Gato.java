@@ -18,6 +18,18 @@ public class Gato {
     public int getEdad() {
         return edad;
     }
+    //metodo setColor
+    public void setcolor(String otroColor) {
+        color= otroColor;
+    }
+    //metodo setedad.
+    public void setEdad(int tiempo) {
+        edad = tiempo;
+    }
+
+    public void imprimirDetalles(){
+        System.out.println("El gato es de color " + color + " y tiene " + edad + "años");
+    }
 
     //fin de la clase 
 }
