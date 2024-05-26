@@ -6,9 +6,9 @@ public class Gato {
     /**
      * Constructor for objects of class Gato
      */
-    public Gato() {
-      color = " ";
-edad = 0;
+    public Gato(String color,int edad) {
+        this.color = color;
+        this.edad = edad;
     }
     //metodo que devuelve el color.
     public String getcolor() {
@@ -18,16 +18,6 @@ edad = 0;
     public int getEdad() {
         return edad;
     }
-    //metodo setColor
-    public void setcolor(String otroColor) {
-        color= otroColor;
-    }
-    //metodo setedad.
-    public void setEdad(int tiempo) {
-        edad = tiempo;
-    }
-
-
 
     //fin de la clase 
 }
